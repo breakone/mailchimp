@@ -23,7 +23,7 @@ class ExtensionConfiguration implements SingletonInterface
 
     public function __construct()
     {
-        $settings = GeneralUtility::makeInstance(ExtensionConfiguration::class)->get('mailchimp');
+        $settings = GeneralUtility::makeInstance(\TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class)->get('mailchimp');
 
         $this->setApiKeys($settings['apiKey'])
             ->setProxy($settings['proxy'])
