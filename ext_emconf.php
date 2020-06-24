@@ -1,6 +1,6 @@
 <?php
 
-$EM_CONF[$_EXTKEY] = [
+$EM_CONF['mailchimp'] = [
     'title' => 'Mailchimp subscription',
     'description' => 'Simple MailChimp integration to let users register to a specific list',
     'category' => 'plugin',
@@ -8,10 +8,10 @@ $EM_CONF[$_EXTKEY] = [
     'author_email' => 'g.ringer@supseven.at',
     'state' => 'stable',
     'clearCacheOnLoad' => true,
-    'version' => '3.1.0',
+    'version' => '4.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.13-9.5.99'
+            'typo3' => '8.7.13-10.4.99'
         ],
         'conflicts' => [],
         'suggests' => [
