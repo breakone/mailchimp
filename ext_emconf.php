@@ -11,7 +11,7 @@ $EM_CONF['mailchimp'] = [
     'version' => '4.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '8.7.13-10.4.99'
+            'typo3' => '10.4.4-10.4.99'
         ],
         'conflicts' => [],
         'suggests' => [

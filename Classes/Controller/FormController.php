@@ -13,7 +13,7 @@ class FormController extends ActionController
 {
 
     /**
-     * @ignorevalidation $form
+     * @TYPO3\CMS\Extbase\Annotation\IgnoreValidation("form")
      */
     public function indexAction(FormDto $form = null)
     {
@@ -41,7 +41,7 @@ class FormController extends ActionController
 
     /**
      * @param FormDto $form
-     * @ignorevalidation $form
+     * @TYPO3\CMS\Extbase\Annotation\IgnoreValidation("form")
      */
     public function ajaxResponseAction(FormDto $form = null)
     {
